@@ -1,0 +1,28 @@
+.list-item {
+  list-style-type: none;
+  margin: 10px;
+}
+.img-logo {
+  height: 120px;
+  margin-left: -5px;
+}
+.name {
+  font-size: medium;
+  margin-bottom: -10px;
+}
+.img-btn {
+  background-color: transparent;
+  border: none;
+}
+@media (max-width: 512px) {
+  .img-logo {
+    height: 80px;
+    margin-left: -5px;
+  }
+  .name {
+    font-size: smaller;
+  }
+  p {
+    font-size: smaller;
+  }
+}
